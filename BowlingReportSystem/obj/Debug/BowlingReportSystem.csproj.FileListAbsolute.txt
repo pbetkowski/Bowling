@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\bin\Debug\BowlingReportSystem.exe.config
+C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\bin\Debug\BowlingReportSystem.exe
+C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\bin\Debug\BowlingReportSystem.pdb
+C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\obj\Debug\BowlingReportSystem.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\obj\Debug\BowlingReportSystem.Form1.resources
+C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\obj\Debug\BowlingReportSystem.Properties.Resources.resources
+C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\obj\Debug\BowlingReportSystem.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\obj\Debug\BowlingReportSystem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\obj\Debug\BowlingReportSystem.exe
+C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\obj\Debug\BowlingReportSystem.pdb
