@@ -1,0 +1,4 @@
+Gra sk³ada siê z dziesiêciu rund (tzw. ramek, ang. frame) dla ka¿dego gracza. Na pocz¹tku
+ka¿dej rundy piny s¹ ponownie ustawiane. W ka¿dej rundzie gracz ma dwa rzuty. Runda koñczy
+siê gdy zawodnik str¹ci wszystkie piny, b¹dŸ skoñcz¹ mu siê rzuty. Za ka¿dy str¹cony pin gracz
+dostaje 1 punkt. Wyj¹tki:

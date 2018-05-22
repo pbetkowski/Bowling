@@ -2,7 +2,7 @@
 
 namespace BowlingReportSystem.Model
 {
-    class PlayerBuilder
+    public class PlayerBuilder
     {
         public string name;
         public int[] points;

@@ -1,0 +1,5 @@
+"spare" – gracz otrzymuje 10 punktów + liczbê punktów równej liczbie krêgli str¹conych
+w nastêpnym rzucie.
+Przyk³ad: zawodnik w pierwszej rundzie zdoby³ spare (np. 6 + 4), w pierwszym rzucie drugiej
+rundy str¹ci³ 3 piny, w drugim 6; Zdobywa zatem (6 + 4) + 3 = 13 punktów (³¹cznie 13
+str¹conych krêgli).

@@ -1,0 +1,4 @@
+"strike" – gracz otrzymuje 10 punktów + liczbê punktów równej liczbie krêgli str¹conych
+w dwóch nastêpnych rzutach.
+Przyk³ad: zawodnik w pierwszej rundzie zdoby³ strike, w drugiej rzuci³ 3 w pierwszym i 6 w
+drugim rzucie, ma zatem 10 + 3 + 6 = 19 punktów (³¹cznie 19 str¹conych pinów),

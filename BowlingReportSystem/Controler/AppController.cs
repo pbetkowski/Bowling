@@ -13,12 +13,13 @@ namespace BowlingReportSystem.Controler
     {
         private Reader reader;
         private GridInitializer gridInitializer;
-      
+        private Game game;
 
         public AppController()
         {
             this.reader = new Reader();
             this.gridInitializer = new GridInitializer();
+            this.game = new Game();
           
         }
 
@@ -32,9 +33,20 @@ namespace BowlingReportSystem.Controler
             return this.reader.FillListOfPlayers();
         }
 
-        public String[] initializeRow(Player player, DataGridView dataGridView)
+        public String[] initializeRow(Player player, DataGridView dataGridView, RichTextBox textBox)
         {
-            return this.gridInitializer.initializeObjects(player, dataGridView);
+            return this.gridInitializer.initializeObjects(player, dataGridView, textBox);
+        }
+
+        public String readRules(string filepath)
+        {
+            return this.reader.readRules(filepath);
+        }
+
+
+        public String getWinner(List<Player> listOfPlayers, RichTextBox textBox)
+        {
+            return this.game.findWinner(listOfPlayers, textBox);
         }
 
     }

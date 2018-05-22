@@ -1,0 +1,5 @@
+2018-05-22 19:44:30.914 [FTL] Nie można odnaleźć części ścieżki „C:\Rules\Spare.txt”.
+2018-05-22 19:44:49.326 [FTL] Nie można odnaleźć części ścieżki „C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\bin\Rules\Spare.txt”.
+2018-05-22 19:45:20.777 [FTL] Nie można odnaleźć części ścieżki „C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\bin\Rules\Spare.txt”.
+2018-05-22 19:46:11.904 [FTL] Nie można odnaleźć części ścieżki „C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\bin\Debug\..BowlingReportSystem\Rules\Spare.txt”.
+2018-05-22 19:46:19.694 [FTL] Nie można odnaleźć części ścieżki „C:\Users\Admin\source\repos\BowlingReportSystem\BowlingReportSystem\bin\BowlingReportSystem\Rules\Spare.txt”.

@@ -75,20 +75,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controler\AppController.cs" />
-    <Compile Include="Service\IAppController.cs" />
+    <Compile Include="Interfaces\IAppController.cs" />
     <Compile Include="Static\Logs.cs" />
-    <Compile Include="Service\IGame.cs" />
-    <Compile Include="Service\IGridInitializer.cs" />
-    <Compile Include="Service\IReader.cs" />
-    <Compile Include="Implementation\Reader.cs" />
+    <Compile Include="Interfaces\IGame.cs" />
+    <Compile Include="Interfaces\IGridInitializer.cs" />
+    <Compile Include="Interfaces\IReader.cs" />
+    <Compile Include="Services\Reader.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Implementation\Game.cs" />
-    <Compile Include="Implementation\GridInitializer.cs" />
+    <Compile Include="Services\Game.cs" />
+    <Compile Include="Services\GridInitializer.cs" />
     <Compile Include="Model\Player.cs" />
     <Compile Include="Model\PlayerBuilder.cs" />
     <Compile Include="Program.cs" />
@@ -104,6 +104,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -119,6 +120,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\open-bowling-strike.jpg" />
+    <Content Include="Rules\Spare.txt" />
+    <Content Include="Rules\Strike.txt" />
+    <Content Include="Rules\Zasady.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

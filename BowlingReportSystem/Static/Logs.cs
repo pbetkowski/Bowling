@@ -15,7 +15,7 @@ namespace BowlingReportSystem
         public static void saveToLogFile(string message)
         {
             Log.Logger = new LoggerConfiguration().ReadFrom.AppSettings().CreateLogger();
-            Log.Logger.Fatal(message);
+            Log.Logger.Error(message);
         }
     }
 }
