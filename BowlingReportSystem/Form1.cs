@@ -8,31 +8,30 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Windows.Forms;
-using System.IO;
-using BowlingReportSystem.Files;
 using BowlingReportSystem.Model;
+using BowlingReportSystem.Controler;
 
 namespace BowlingReportSystem
 {
     public partial class Form1 : Form
     {
-        Reader reader = new Reader();
         List<Player> listOfPlayers;
-        GridInitializer gridInitializer = new GridInitializer();
+        AppController app = new AppController();
 
         public Form1()
         {
             InitializeComponent();
-            gridInitializer.initializeGrid(dataGridView1);
+            app.initializeGrid(dataGridView1);
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            listOfPlayers = reader.FillListOfPlayers();
+        {   
+            
+            listOfPlayers = app.fillListOfPlayers();
            
             foreach (Player player in listOfPlayers)
             {
-                string[] row = gridInitializer.initializeObjects(player, dataGridView1);
+                string[] row = app.initializeRow(player, dataGridView1);
                 dataGridView1.Rows.Add(row);
             }
         }
