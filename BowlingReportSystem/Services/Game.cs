@@ -38,11 +38,12 @@ namespace BowlingReportSystem
 
         public string findWinner(List<Player> listOfPlayers, RichTextBox textBox)
         {
-            
+
             string winner = "";
 
             for (int i = 1; i < listOfPlayers.Count; i++)
             {
+                winner = listOfPlayers[i].name;
                 if (countPoints(listOfPlayers[i], textBox) > countPoints(listOfPlayers[i - 1], textBox))
                 {
                     winner = listOfPlayers[i].name;
